@@ -56,8 +56,8 @@ export type FooterLink = {
 };
 
 const placeholderContactHrefs = {
-  telegram: "https://t.me/your_telegram",
-  email: "mailto:your-email@example.com",
+  telegram: "https://t.me/TeamCash_Nepal",
+  email: "mailto:PAYPARTNERS-MIDDLEAST@MELBET.COM",
 } as const;
 
 export const nepalContent = {
