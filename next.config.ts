@@ -6,6 +6,13 @@ const repoRoot = path.dirname(fileURLToPath(import.meta.url));
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+
+  output: "export",
+
+  images: {
+    unoptimized: true,
+  },
+
   turbopack: {
     root: repoRoot,
   },
